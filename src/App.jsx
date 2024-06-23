@@ -1,16 +1,10 @@
-import Products from "./components/Products"
-import Cart from "./components/Cart"
+import Dashboard from './pages/dashboard'
 
 function App() {
 
   return (
     <div className="mainContent">
-      <Products/>
-      <Cart/>
-
-            
-            
-               
+      <Dashboard />
     </div>
   )
 }
