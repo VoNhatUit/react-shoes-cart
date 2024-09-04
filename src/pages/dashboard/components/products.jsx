@@ -1,4 +1,3 @@
-import { useState } from "react";
 
 import { useShoeContext } from "../../../contexts/shoes-context";
 import CardCover from "../../../components/card-cover";

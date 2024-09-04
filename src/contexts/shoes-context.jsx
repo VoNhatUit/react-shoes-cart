@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { shoesData } from '../mock_data/shoesData';
 
 const AppContext = React.createContext();
@@ -58,7 +57,7 @@ export default function ShoeProvider({ children }) {
 
       return carts
     })
-  };
+  }
   
   function handleSold(shoeId, checked){
     const shoeIndex = shoes.findIndex(shoe => shoe.id === shoeId);
